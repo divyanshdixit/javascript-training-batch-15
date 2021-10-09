@@ -23,6 +23,7 @@ var r;
 r = 10;
 
 var r = 10;
+
 // 3- computation (logics)
 
 // 10, 20 => 10 + 20 => 30 
@@ -39,15 +40,22 @@ var b = 20;
 
 var result; 
 result = 10 + 20; // a + b
+sub = a - b;
 
+// sum of 10 and 20 is 30
+
+console.log("sum of ", a, ' and ', b, ' is ', result)
+// console.log('sum of ' + 10)
 // var result = a + b;
- 
-
-console.log(result, 'helo', )
+//  console.log(result, 'Result') // 30Result
+// console.log(result,'checking', 100)
+// console.log(result, 'helo')
 console.log('Sum of 10 and 20 is ',result, 'adsasad' );
 
 // ' ', " "
 
 // " I'm "Divyansh" "
 
+// 'asdasdasdas  "sadsads"  asdasdasdsds '
+// template literal
 // node 
