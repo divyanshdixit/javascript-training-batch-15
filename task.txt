@@ -1,0 +1,4 @@
+2- simple calculator using object: 
+
+num1, num2 => props
+add, sub, mul, div => methods

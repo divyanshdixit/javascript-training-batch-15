@@ -11,9 +11,15 @@ var obj = { // alphabatical indexes
     color:'red',
     modal:11,
     transport: function(){
-
+        console.log('method')
     }
 }
+
+// prop access
+console.log(obj.carname);
+
+// method access
+console.log(obj.transport())
 // console.log(obj['carname'])
 // prop, method
 
