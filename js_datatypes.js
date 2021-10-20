@@ -4,7 +4,7 @@
 
 // primitive values  (immutable, not changed) => they don't have theri own props and method(function)
 
-// non-primitive values (mutable , can change) => they have own props and methods
+// reference type (non-primitive values)  (mutable , can change) => they have own props and methods
 
 // Complex datatype: function(){} => js function are object 
 
@@ -52,9 +52,10 @@ console.log( typeof null , typeof undefined, typeof function(){})
 console.log(null == undefined, null === undefined)
 console.log(c)
 
+// =====================
 
-// Hoisting:- variable declartion are hoisted to the top and that variable can be initalized at any time.
-
+// Hoisting:-  variable declartion are hoisted to the top and that variable can be initalized at any time.
+var f;
 // we can use variable before it is declared.
 
 // let, var , const
@@ -67,6 +68,7 @@ console.log(o);
 
 
 name = 'Divyansh';
+console.log(name);
 // window.alert(name);
 var name;
 
