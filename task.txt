@@ -2,3 +2,21 @@
 
 num1, num2 => props
 add, sub, mul, div => methods
+
+{
+
+    add:function(){
+
+    },
+    sub:function(f1=return of add, f2=10){
+
+    },
+    mul:function(f1=add return, f2= sub return){
+
+    },
+    div:function(){
+        
+    }
+}
+
+obj.add(10,20)

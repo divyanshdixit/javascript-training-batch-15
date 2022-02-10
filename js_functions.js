@@ -1,5 +1,5 @@
 // regular function , nrml function
-// arrow function
+// arrow function => all arrow function are anonymous 
 // anonymous function
 // closure function
 // callback function
@@ -36,7 +36,7 @@ function name(){
     console.log('object')
 }
 
-name()
+name();
 name()
 name()
 name()
@@ -54,15 +54,15 @@ name();
 
 console.log(typeof name);
 
-
+// parameters, arguments
 function add(x,y,z=0){ // define parameters
     // z= undefined, null + 5
     let res = x + y + z;
-    return `the sum of ${x} and ${y} is ${res}`;
+    return `the sum of ${x} , ${y} and ${z} is ${res}`;
 }
 
 // add(3,2);
-console.log(add(3,2)) // call arguments
+console.log(add(3,2,8)) // call arguments
 
 // var res = add(3,2); // function result can be saved in varaible
 // console.log(res);

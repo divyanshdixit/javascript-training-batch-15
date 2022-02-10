@@ -60,8 +60,9 @@ var f;
 
 // let, var , const
 
-
+o = 10;
 console.log(o);
+var o;
 
 var o = 10;
 console.log(o);

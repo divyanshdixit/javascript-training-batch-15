@@ -29,7 +29,6 @@ console.log(l); // 10
 
 {
     let l = 2;
-    
     // var l = 4;
     console.log(l)// 4
 }
@@ -79,6 +78,7 @@ const c = 10; // not allowed
 }
 
 let w = 11; // not allowed
+
 
 
 
