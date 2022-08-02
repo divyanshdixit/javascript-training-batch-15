@@ -4,9 +4,16 @@
 
 
 var y = 20; // global scope
-
+var a = 10;
 // block scope => variable with var keyword can't have block scope
+{
+var a = 20;
+let b = 30;
+b = 40;
+console.log(b); // 40
 
+}
+console.log(b); 
 {
     let x = 30;
     console.log(x);// 30

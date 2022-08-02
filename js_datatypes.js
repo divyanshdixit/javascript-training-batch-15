@@ -1,6 +1,8 @@
+
+var a = 10;
 // js variable can hold many datatypes
 
-// two types of values:
+// two types of values:-
 
 // primitive values  (immutable, not changed) => they don't have theri own props and method(function)
 
@@ -9,9 +11,9 @@
 // Complex datatype: function(){} => js function are object 
 
 //Primitve :
-// var a = ;
-// String 
-// Number
+// var a  ;
+// String => '', ""
+// Number => 10, 10.1
 // Boolean => true or false
 // undefined => not recommend by js 
 
