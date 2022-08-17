@@ -1,4 +1,4 @@
-// comparison => if else, switch
+// comparison => if else, switch case  => default
 
 // less than 10
 // grater than 10 
