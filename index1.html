@@ -14,8 +14,35 @@
     
     <h1 id="heading"> Before </h1>
     <button type="button" onclick="clickFunction()"> Submit </button>
+    <div id="demo"> </div>
+
+    <button type="button" id="tgl" onclick="toggleFunction()">     ON     </button>
+
+    <button type="button" id="show_hide"> Show </button>
 
     <script> 
+
+        document.getElementById('show_hide').onclick = showhideFunction;
+
+        function showhideFunction(){
+            let text = document.getElementById('show_hide').innerHTML;
+            // text.trim().toLowerCase() => chaining method
+            if(text.trim().toLowerCase() === 'show'){
+                document.getElementById('show_hide').innerHTML = 'Hide';
+            }else{
+                document.getElementById('show_hide').innerHTML = 'Show';
+            }
+        }
+
+        function toggleFunction(){
+            let text = document.getElementById('tgl').innerHTML;
+            if(text.trim() === 'ON'){
+                document.getElementById('tgl').innerHTML = 'OFF';
+            }else{
+                document.getElementById('tgl').innerHTML = 'ON';
+            }
+        }
+
         function clickFunction(){
 
             document.getElementById('heading').innerHTML = '<span style="color:red"> After </span> '
@@ -29,5 +56,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.min.js" integrity="sha384-PsUw7Xwds7x08Ew3exXhqzbhuEYmA2xnwc8BuD6SEr+UmEHlX8/MCltYEodzWA4u" crossorigin="anonymous"></script>
 
     <script src="./regular_fun.js"></script> 
+    <script src="./js_events.js"> </script>
 </body>
 </html>
